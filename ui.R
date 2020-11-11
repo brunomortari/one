@@ -1,4 +1,6 @@
 library(shiny)
-shinyUI(fluidPage(
-  "One"
-))
+pageWithSidebar(
+  headerPanel('One'),
+  sidebarPanel(),
+  mainPanel()
+)
