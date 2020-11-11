@@ -1,2 +1,4 @@
 library(shiny)
-server <- function(input,output,session){}
+shinyServer(function(input,output,session)
+  {}
+)

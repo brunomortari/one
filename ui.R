@@ -1,4 +1,4 @@
 library(shiny)
-ui <- fluidPage(
+shinyUI(fluidPage(
   "One"
-)
+))
